@@ -1,0 +1,5 @@
+﻿  Vector.cpp
+C:\Users\yarov\source\repos\Laba\Vector\Vector\Vector.h(37,2): warning C4091: '__declspec(dllexport)': ignored on left of 'Vector' when no variable is declared
+C:\Users\yarov\source\repos\Laba\Vector\Vector\Vector.cpp(7,9): warning C4930: 'Number number(void)': prototyped function not called (was a variable definition intended?)
+     Creating library C:\Users\yarov\source\repos\Laba\Vector\x64\Debug\Vector.lib and object C:\Users\yarov\source\repos\Laba\Vector\x64\Debug\Vector.exp
+  Vector.vcxproj -> C:\Users\yarov\source\repos\Laba\Vector\x64\Debug\Vector.dll

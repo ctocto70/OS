@@ -1,0 +1,7 @@
+﻿  Number.cpp
+C:\Users\yarov\source\repos\Laba\Number\Number\Number.cpp(24): warning C4172: returning address of local variable or temporary: sum
+C:\Users\yarov\source\repos\Laba\Number\Number\Number.cpp(34): warning C4172: returning address of local variable or temporary: sum
+C:\Users\yarov\source\repos\Laba\Number\Number\Number.cpp(29): warning C4172: returning address of local variable or temporary: sum
+C:\Users\yarov\source\repos\Laba\Number\Number\Number.cpp(39): warning C4172: returning address of local variable or temporary: sum
+C:\Users\yarov\source\repos\Laba\Number\Number\Number.cpp(78): warning C4172: returning address of local variable or temporary
+  Number.vcxproj -> C:\Users\yarov\source\repos\Laba\Number\x64\Debug\Number.lib

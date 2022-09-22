@@ -1,0 +1,4 @@
+﻿  TestLab1.cpp
+C:\Users\yarov\source\repos\Laba\Vector\Vector\Vector.h(37,2): warning C4091: '__declspec(dllimport)': ignored on left of 'Vector' when no variable is declared
+  TestLab1.vcxproj -> C:\Users\yarov\source\repos\Laba\TestLab1\x64\Debug\TestLab1.exe
+  Скопировано файлов: 0.
