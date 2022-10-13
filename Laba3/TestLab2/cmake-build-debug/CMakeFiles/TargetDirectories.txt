@@ -1,0 +1,3 @@
+/home/yaroslav/Laba2/TestLab2/cmake-build-debug/CMakeFiles/TestLab2.dir
+/home/yaroslav/Laba2/TestLab2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yaroslav/Laba2/TestLab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

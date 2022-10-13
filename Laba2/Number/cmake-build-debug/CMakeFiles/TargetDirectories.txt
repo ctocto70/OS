@@ -1,0 +1,3 @@
+/home/yaroslav/Laba2/Number/cmake-build-debug/CMakeFiles/Number.dir
+/home/yaroslav/Laba2/Number/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yaroslav/Laba2/Number/cmake-build-debug/CMakeFiles/rebuild_cache.dir
