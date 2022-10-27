@@ -1,4 +1,4 @@
-# Install script for directory: C:/Lab4
+# Install script for directory: C:/Users/yarov/OS/Lab4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Lab4/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/yarov/OS/Lab4/cmake-build-release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
