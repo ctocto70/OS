@@ -15,7 +15,6 @@ void Vector::add(int x, int y, int value) {
 }
 
 Vector::Vector(int size, bool IsRandom) {
-    srand(time(0));
     if (IsRandom) {
         std::lock_guard<std::recursive_mutex> locker(_lock);
         generate(size);
@@ -26,6 +25,7 @@ Vector::Vector(int size, bool IsRandom) {
 }
 
 Vector::Vector(std::vector<std::vector<int>> vector) {
+    std::lock_guard<std::recursive_mutex> locker(_lock);
     setVector(vector);
 }
 
@@ -62,6 +62,7 @@ void Vector::generate(int size) {
 }
 
 void Vector::print() const {
+    std::lock_guard<std::recursive_mutex> locker(_lock);
     for (std::vector<int> i: vector) {
         for (int j: i) {
             std::cout << j << " ";
@@ -71,11 +72,13 @@ void Vector::print() const {
 }
 
 void Vector::copyTo(std::vector<std::vector<int>> &vec) {
+    std::lock_guard<std::recursive_mutex> locker(_lock);
     vec.clear();
     copy(vector.begin(), vector.end(), back_inserter(vec));
 }
 
 void Vector::setVector(const std::vector<std::vector<int>> insert) {
+    std::lock_guard<std::recursive_mutex> locker(_lock);
     vector.clear();
     copy(insert.begin(), insert.end(), back_inserter(vector));
 }
