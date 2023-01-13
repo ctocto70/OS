@@ -1,0 +1,3 @@
+﻿  Pipeline.cpp
+C:\WindowsPipes\Pipeline\Pipeline\Pipeline.cpp(123,47): warning C4244: 'argument': conversion from 'float' to 'DWORD', possible loss of data
+  Pipeline.vcxproj -> C:\WindowsPipes\Pipeline\x64\Debug\Pipeline.exe
