@@ -1,0 +1,3 @@
+/home/yaroslav/LinuxPipes/P/cmake-build-debug/CMakeFiles/P.dir
+/home/yaroslav/LinuxPipes/P/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/yaroslav/LinuxPipes/P/cmake-build-debug/CMakeFiles/rebuild_cache.dir
