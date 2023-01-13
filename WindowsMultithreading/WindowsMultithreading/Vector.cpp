@@ -11,7 +11,6 @@ void Vector::add(int x, int y, int value) {
 }
 
 Vector::Vector(int size, bool IsRandom) {
-    srand(time(0));
     if (IsRandom) {
         std::lock_guard<std::recursive_mutex> locker(_lock);
         generate(size);

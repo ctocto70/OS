@@ -7,7 +7,7 @@
 
 int main()
 {
-    MatrixMultiply::MultiplyAll(50);
+   MatrixMultiply::MultiplyAll(50);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
