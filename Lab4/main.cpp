@@ -2,5 +2,6 @@
 #include "MatrixMultiply.h"
 
 int main() {
-   MatrixMultiply::MultiplyAll(50);
+    srand(time(0));
+    MatrixMultiply::MultiplyAll(50);
 }
